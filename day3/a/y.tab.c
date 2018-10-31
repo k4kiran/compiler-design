@@ -1221,7 +1221,7 @@ yyreduce:
     {
         case 2:
 #line 10 "pgm.y" /* yacc.c:1646  */
-    {printf("Input accepted.\n");exit(0);}
+    {printf("valid expression.\n");exit(0);}
 #line 1226 "y.tab.c" /* yacc.c:1646  */
     break;
 
@@ -1458,12 +1458,12 @@ yyreturn:
 
 void main()
 {
-    printf("Enter the expression: ");
+    printf("Enter the switch expression: ");
     yyparse();
 }
 int yyerror()
 {
-    printf("Invalid");
+    printf("Invalid expression");
     return 0;
 }
 
