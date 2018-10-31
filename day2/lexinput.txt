@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+void main()
+{
+int c,a = 2,b = 3;
+s1 = a + b ;
+s2 = b + a ;
+}

@@ -1,0 +1,9 @@
+void main()
+{
+	int a=7;
+	int b=6;
+	if(a>=b)
+	   a=0;
+	if(b<a)
+	   b=1;
+}
